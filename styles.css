@@ -1,0 +1,63 @@
+body {
+    font-family: 'Lobster', cursive;
+    /* Change to a romantic cursive font */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0;
+    background-image: url('images/image.jpg');
+    background-size: cover;
+    font-size: 35px;
+    color: #ffceda;
+    text-align: center;
+}
+
+.hh {
+    -webkit-text-stroke: 2px #71004f;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.pp {
+    -webkit-text-stroke: 2px #71004f;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.image {
+    height: 280px;
+    border-radius: 6px;
+}
+
+.buttons button {
+    background-color: #f73565;
+    color: #ffceda;
+    padding: 10px 30px;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 26px;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Lobster', cursive;
+    /* Change to a romantic cursive font */
+}
+
+button:hover,
+button:active,
+button:focus {
+    background-color: #ff0040;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.hidden-message {
+    display: none;
+    margin-top: 20px;
+}
